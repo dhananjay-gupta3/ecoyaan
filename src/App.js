@@ -1,12 +1,15 @@
 
+import About from './About';
 import './App.css';
+import HomePage from './Home';
 import Navbar from './Navbar';
-import News from './News';
+
 function App() {
   return (
     <div >
       <Navbar />
-      <News />
+      <HomePage />
+      <About />
     </div>
   );
 }

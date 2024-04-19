@@ -6,12 +6,12 @@ const Navbar = () => {
     const toggleNav = () => {
         setIsOpen(!isOpen);
     };
-    
+
     return (
         <div>
             <nav>
                 <div className="logo">
-                    <>NEWS</>
+                    <>Ecoyaan</>
                 </div>
                 <div className={`nav-links ${isOpen ? 'show' : ''}`}>
                     <a href="/">Home</a>

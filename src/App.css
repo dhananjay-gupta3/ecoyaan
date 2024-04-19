@@ -3,6 +3,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
+ 
   background-color: #333;
   color: #fff;
   position: relative;
@@ -72,10 +73,11 @@ nav {
   border-radius: 4px;
   padding: 8px;
   font-size: 16px;
-  
+
   box-sizing: border-box;
   margin-right: 10px;
 }
+
 .search-container {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -123,5 +125,5 @@ nav {
     overflow: hidden;
   }
 
- 
+
 }
