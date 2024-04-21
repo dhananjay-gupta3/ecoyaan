@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+
+
+}
+
+.navbar-logo {
+    font-size: 24px;
+}
+
+.navbar-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.navbar-hamburger div {
+
+    width: 2rem;
+    height: 0.25rem;
+    background-color: white;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-hamburger {
+        display: flex;
+    }
+}

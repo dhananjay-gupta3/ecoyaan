@@ -1,78 +1,43 @@
-.carousel-item {
-    position: relative;
-    width: 100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-}
-
-.overlay h2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.overlay p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.overlay button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.overlay button:hover {
-    background-color: #0056b3;
-}
-
-
-
-
-
-
-
-
-
-.cont {
+.containers {
     display: flex;
-
-
-    align-items: center;
     justify-content: space-between;
-    padding: 5px;
 }
 
-.info {
-    flex: 1;
+.about {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 254, 249);
+}
 
+.text-section {
+    flex: 1; 
     padding: 20px;
 }
 
-.info h2 {
-    margin-top: 0;
-}
-
-.image {
+.image-section {
     flex: 1;
-
     padding: 20px;
 }
+
+.image-section img {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+  
+}
+
 
 @media (max-width: 768px) {
-    .container {
+    .containers {    
         flex-direction: column;
-
     }
+}
+
+
+.words {
+    padding: 5px;
+    font-size: 25px;
+    word-spacing: 5px;
+    text-size-adjust: 10px;
+    text-decoration: dotted;
 }

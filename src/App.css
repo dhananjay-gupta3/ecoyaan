@@ -3,16 +3,19 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
- 
-  background-color: #333;
-  color: #fff;
+  background-color: #f9f8f8;
+  color: #030303;
   position: relative;
+  z-index: 1;
 }
 
 .logo {
+  color: rgb(7, 186, 7);
+
   font-size: 30px;
+  font-weight: bold;
   margin-left: 40px;
-  font-size: 24px;
+
 }
 
 .nav-links {
@@ -24,8 +27,8 @@ nav {
   top: 80px;
   left: 0;
   right: 0;
-  background-color: #333;
-  color: #fff;
+  background-color: #fbf7f7;
+  color: #0a0a0a;
   height: 0;
   overflow: hidden;
   transition: height 0.5s ease;
@@ -41,51 +44,27 @@ nav {
   padding: 15px;
   flex-direction: column;
   text-decoration: none;
-  color: #fff;
+  color: #050505;
 }
 
 .hamburger {
   cursor: pointer;
   margin-right: 30px;
+  color: #030303;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
+
 }
 
 .line {
   width: 30px;
   height: 3px;
-  background-color: #fff;
+  background-color: #080808;
   border-radius: 5px;
 }
 
-.search-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.search-container input {
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  padding: 8px;
-  font-size: 16px;
-
-  box-sizing: border-box;
-  margin-right: 10px;
-}
-
-.search-container {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  padding: 20px;
-}
 
 .card-container {
   display: grid;

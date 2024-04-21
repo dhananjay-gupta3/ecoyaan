@@ -1,45 +1,51 @@
-.carousel-item {
+.carousel-container .carousel .slide {
     position: relative;
+}
+
+.carousel-container .carousel .slide img {
     width: 100%;
-
+    height: auto;
 }
 
-.image {
-    width: 50%;
-    height: 50%;
-}
-h2{
-    color: black;
-}
-.overlay {
+.carousel-container .carousel .slide .slide-text {
     position: absolute;
-    height: 70%;
+    top: 50%;
+    left: 34%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    border-radius: 30px;
+    border: 0px solid rgb(9, 214, 9);
+    width: 150px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(5, 182, 5);
     color: white;
 }
 
-.overlay h2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+.responsive {
+    width: 100;
+    height: auto;
 }
 
-.overlay p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+img {
+    width: 600;
+    height: 400;
 }
 
-.overlay button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.carousel-container .carousel .slide img {
+    width: 100%;
+    height: auto;
 }
 
-.overlay button:hover {
-    background-color: #0056b3;
+
+@media (max-width: 768px) {
+    .carousel-container .carousel .slide img {
+        max-height: 400px;
+    }
 }
