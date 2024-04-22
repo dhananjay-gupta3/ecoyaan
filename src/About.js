@@ -22,18 +22,20 @@ const About = () => {
     }, [])
     return (
         <>
-            {
-                windowWidth > 768 ? (
-                    <div className="cont">
-                        <div className="text-section">
-                            <h1>About Ecoyaan</h1>
-                            <div className='words'>At Ecoyaan, we
+            
+
+            
+
+                    <div className="containers">
+                <div className="text-section">
+                    <h1>About Ecoyaan</h1>
+                    <div className='words'>At Ecoyaan, we
                                 are more than just a platform. Our goal
                                 is to build a community of eco-conscious
                                 people who share a common vision
                                 and passion for a more sustainable world.</div>
 
-                            <div className='words'>
+                                <div className='words'>
                                 We recognize that sustainability is a
                                 journey (as the Sanskrit word “yaan”
                                 suggests). To keep you motivated on
@@ -45,17 +47,15 @@ const About = () => {
                                 <p> Videos, posts, and quizzes on climate change and sustainability</p>
                                 <p> Events and pledges that invite you to adopt a more sustainable lifestyle</p>
                             </div>
-                        </div>
-                        <div className="image-section">
-                            <img src={tree} alt="Home" />
-                        </div>
-                    </div>
-                ) : (
-                    <div>
+                </div>
+                <div className="image-section">
+                    <img src={tree} alt="Home" />
+                </div>
+            </div>
 
-                    </div>
-                )
-            }
+
+
+
 
             <h1>Our Values</h1>
             <div className="wrap">
